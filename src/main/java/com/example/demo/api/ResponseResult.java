@@ -15,6 +15,10 @@ public class ResponseResult<T> {
     private String msg;
     private T data;
 
+    public ResponseResult(ResultCode code, String msg) {
+        this(code, msg, null);
+    }
+
     public enum ResultCode {
 
         SUCCESS(0, "成功"),

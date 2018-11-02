@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.demo.entity.User;
 
 /**
  * <p>
@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2018-10-27
  */
 public interface IUserService extends IService<User> {
-
+    User get(User user);
 }
