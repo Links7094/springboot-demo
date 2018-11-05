@@ -103,7 +103,6 @@
 
     <logger name="org.springframework" level="INFO" />
     <logger name="org.apache" level="INFO" />
-    <logger name="org.mybatis" level="INFO" />
 
     <!-- ${LOG_ROOT_LEVEL} 日志级别 -->
     <root level="${LOG_ROOT_LEVEL}">

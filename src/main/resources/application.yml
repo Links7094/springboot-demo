@@ -38,4 +38,5 @@ mybatis-plus:
 logging:
   level:
     root: debug
-
+    com.example.mapper: info
+    com.baomidou.mybatisplus.core.MybatisConfiguration: info
